@@ -1,4 +1,4 @@
-FROM python:3-alpine3.10
+FROM python:3-bullseye
 LABEL author = "khaja"
 EXPOSE 5000
 RUN git clone https://github.com/Doddisrikanth/flask-hello-world.git && \
